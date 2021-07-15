@@ -38,8 +38,8 @@ ksp {
 }
 
 // needed for ksp
-evaluationDependsOn(":experiments-annotation")
-evaluationDependsOn(":experiments-processor")
+//evaluationDependsOn(":experiments-annotation")
+//evaluationDependsOn(":experiments-processor")
 
 android.sourceSets.all { it.java.srcDir("build/generated/ksp/${it.name}/kotlin/") }
 
